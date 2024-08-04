@@ -1,0 +1,24 @@
+{
+  "editor.tabSize": 2,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "[typescript][javascript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "cSpell.ignoreRegExpList": [
+    "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"
+  ],
+  "cSpell.customDictionaries": {
+    "words": {
+      "name": "words",
+      "path": "${workspaceRoot}/.cspell/words.txt"
+    },
+    "custom": true,
+    "internal-terms": true,
+  },
+  "editor.minimap.maxColumn": 80,
+  "editor.wordWrap": "on",
+}
